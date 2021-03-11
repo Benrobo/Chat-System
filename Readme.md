@@ -1,27 +1,23 @@
 ## Simple Based Chat System
 
-## HomePage Of Chat System
+HomePage Of Chat System
+![alt text](https://github.com/Benrobo/Chat-System//blob/main/home.png?raw=true)
 
-<img src='https://github.com/Benrobo/Chat-System/tree/main/img/home.png'>
+Signup Page Of Chat System
 
+![alt text](https://github.com/Benrobo/Chat-System//blob/main/signup.png?raw=true)
 
-## Signup Page Of Chat System
+Login Page Of Chat System
 
-<img src='https://github.com/Benrobo/Chat-System/tree/main/img/signup.png'>
-
-## Login Page Of Chat System
-
-<img src='https://github.com/Benrobo/Chat-System/tree/main/img/login.png'>
+![alt text](https://github.com/Benrobo/Chat-System//blob/main/login.png?raw=true)
 
 
-## Users Page Of Chat System
+Users Page Of Chat System
+![alt text](https://github.com/Benrobo/Chat-System//blob/main/user.png?raw=true)
 
-<img src='https://github.com/Benrobo/Chat-System/tree/main/img/user.png'>
+Chat Area
 
-
-## Chat Area
-
-<img src='https://github.com/Benrobo/Chat-System/tree/main/img/chat.png'>
+![alt text](https://github.com/Benrobo/Chat-System//blob/main/chat.png?raw=true)
 
 
 ## Download and Installation
