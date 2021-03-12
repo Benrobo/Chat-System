@@ -1,0 +1,327 @@
+body{
+    width:100%;
+    height:100vh;
+    background:linear-gradient(to top right, rgba(53, 79, 166, 1),rgba(53, 79, 166, 1));
+
+}
+
+
+.users-container{
+    max-width:80%;
+    height:auto;
+    color:#fff;
+    position:relative;
+    margin:20px auto;
+    font-weight:200;
+    border-radius: 5px;
+    padding:0px;
+    position:relative;
+    top:-10px;
+}
+
+
+@media(max-width:768px){
+    .users-container{
+        min-width:100%;
+    }
+    .users-container .logged-in-user{
+        width:100%;
+    }
+}
+.users-container .logged-in-user{
+    width:80%;
+    height:35vh;
+    display:flex;
+    padding:12px;
+    flex-wrap:wrap;
+    position:relative;
+    margin-bottom:20px;
+    background:#334a96;
+    font-weight:200;
+    box-shadow:-3px -3px 15px #2c469b07, -3px -3px 50px #13245a7e;
+    margin:0px auto;
+}
+.online-circle{
+    color:#0f880f;
+    padding:5px;
+}
+.offline-circle{
+    color:#ccc;
+    padding:10px;
+}
+.users-container .logged-in-user .user-img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow:-3px -3px 15px #2c469b07, -3px -3px 50px #13245a4f;
+}
+.users-container .logged-in-user .user-action{
+    position: absolute;
+    left:40px;
+    top:140px;
+}
+.users-container .logged-in-user .user-action .button{
+    background:transparent;
+    outline:none;
+    border:none;
+}
+.users-container .logged-in-user .user-action .button .uploadicon{
+    padding:10px;
+    background:rgba(0,0,0,.8) !important;
+    color:#fff;
+    border-radius:50%;
+    outline:none;
+    border:none;
+}
+.users-container .logged-in-user .user-info{
+    position: absolute;
+    right:10px;
+}
+.users-container .logged-in-user .user-info .username{
+    font-weight:360;
+    font-size:25px;
+    float:right;
+}
+.users-container .logged-in-user .user-info .logout-cont{
+    width:150px;
+    position:absolute;
+    top:70px;
+    right:10px;
+}
+.users-container .logged-in-user .user-info .logout-cont a{
+     padding:10px 20px;
+    width:120px;
+    border:none;
+    outline:none;
+    background:#354fa6;
+    font-weight:400;
+    box-shadow:-3px -3px 15px #2c469b07, -3px -3px 50px #13245a7e;
+    color:#fff;
+    border-radius:5px;
+    text-decoration: none;
+}
+.users-container .logged-in-user .user-info .logout-cont a:hover{
+    box-shadow:-3px -3px 15px #172657, -3px -3px 50px #060b1b69;    
+}
+
+.users-container .users-fields{
+    width:80%;
+    height:auto;
+    display:flex;
+    padding:12px;
+    flex-wrap:wrap;
+    position:relative;
+    margin-bottom:20px;
+    background:#334a96;
+    font-weight:200;
+    box-shadow:-3px -3px 15px #2c469b07, -3px -3px 50px #13245a80;
+    margin:0px auto;
+}
+.users-container .users-fields .searchbar{
+    position:relative;
+    /* margin:0px auto; */
+    width:100%;
+    padding-left:12px;
+}
+.users-container .users-fields .searchbar .form{
+    position:absolute;
+    top:-5px;
+    right:0px;
+    width:100%;
+    padding-left:10px;
+}
+
+
+.users-container .users-fields .searchbar .form input{
+    width:80%;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background:#334a96;
+    border:0px;
+    border-bottom:4px solid #3a4d94;
+    border-radius:0px;
+    outline:none;
+    padding:5px 10px;
+    color:#fff;
+    visibility: hidden;
+}
+.users-container .users-fields .searchbar input:focus{
+    border-bottom:3px solid #263a7c;
+}
+.users-container .users-fields .searchbar .form input::placeholder{
+    color:#fff;
+}
+
+.users-container .users-fields .searchbar button{
+    padding:5px 5px;
+    width:50px;
+    border:none;
+    outline:none;
+    background:#354fa6;
+    font-weight:400;
+    box-shadow:-3px -3px 15px #284194, -3px -3px 50px #13245a5b;
+    color:#fff;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    text-decoration: none;
+    font-size:25px;
+}
+
+.users-container .users-container-section{
+   width:100%;
+   height:auto;
+}
+.users-container .users-container-section::-webkit-scrollbar{
+    width: 3px;
+    background:#264094;
+    display:none;
+}
+
+.users-container .users-cont{
+   width:100%; 
+   height:auto;
+   
+}
+
+.users-container .users-cont .box{
+   position:relative;
+    width:100%; 
+    height:auto;
+    padding:4px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.users-container .users-cont .box .user-img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+
+.users-container .users-cont .box .user-info{
+   position:absolute;
+   right:20px;
+   color:#fff;
+   display:flex;
+   flex-direction: row-reverse;
+}
+
+.users-container .users-cont .box .user-info .username{
+   font-size:15px;
+   font-weight:300;
+   float:right;
+   padding-left:6px;
+   padding-right:6px;
+}
+.users-container .users-cont .box .user-info .online-circle{
+    padding:5px 5px;
+}
+
+
+
+
+
+
+
+/* Form upload modal */
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Content/Box */
+
+
+/* The Close Button */
+.modal .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal .close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Modal Header */
+
+/* Modal Body */
+.modal .modal-body {padding: 2px 16px;}
+/* Modal Footer */
+.modal .modal-footer {
+  padding: 2px 16px;
+  background-color: #223883;
+  color: white;
+}
+
+/* Modal Content */
+.modal .modal-content {
+  position: relative;
+  top:20%;
+
+  background-color: #fefefe;
+  margin:0px auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+.modal .modal-content .modal-body .img-preview img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin:0px auto;
+}
+
+.modal .modal-content .modal-body #file_upload_btn{
+    border:none;
+    outline:none;
+    background:#122153;
+    padding:5px 7px;
+    width:120px;
+    border-radius: 6px;
+    color:#fff;
+    box-shadow:0px 0px 3px #000;
+}
+
+.modal .modal-content .modal-footer #save_file{
+    border:none;
+    outline:none;
+    background:#122153;
+    padding:5px 7px;
+    width:120px;
+    border-radius: 6px;
+    color:#fff;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 20%; opacity: 1}
+}
+
+
+
+
+
+
